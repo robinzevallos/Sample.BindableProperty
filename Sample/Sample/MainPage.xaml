@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Sample"
+    x:Class="Sample.MainPage"
+    >
+    <StackLayout
+        Padding="20"
+        Spacing="20"
+        >
+        <local:DemoControl 
+            Title="Title1"
+            Description="Description1"
+            BackgroundColorButton="#A9D6C3"
+            />
+        <local:DemoControl 
+            Title="Title2"
+            Description="Description2"
+            BackgroundColorButton="#465877"
+            />
+    </StackLayout>
+</ContentPage>

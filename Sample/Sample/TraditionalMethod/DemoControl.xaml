@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Sample.Traditional.DemoControl"
+    >
+    <Frame
+        CornerRadius="30"
+        BackgroundColor="#F0F0F0"
+        >
+        <StackLayout>
+            <Label
+                FontSize="30"
+                Text="{Binding Title}"            
+                />
+            <Label
+                Text="{Binding Description}"
+                TextColor="Gray"
+                />
+            <Button
+                BackgroundColor="{Binding BackgroundColorButton}"
+                CornerRadius="15"           
+                FontSize="10"
+                HeightRequest="35"
+                Margin="0,20,0,0"
+                Text="Select"
+                TextColor="White"
+                />
+        </StackLayout>
+    </Frame>
+</ContentView>
